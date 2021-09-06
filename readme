@@ -1,0 +1,49 @@
+1G - FDMA (CSD)
+2G - TDMA (GSM) 
+3G - CDMA
+4G - FDMA + QAMs
+5G - OFDMA
+
+GSM - Global System for Mobile Communications
+HSCSD - High-Speed CSD
+CSD - Circuit Switched Data
+UMTS - Universal Mobile Telecommunications System (3GSM) - W-CDMA
+
+TDD (WiMax)
+FDD (WCDMA, CDMA2000)
+(IMT-2000)
+
+HSDPA - 16-QAM, QPSK
+HSPA+ - 64-QAM, 16-QAM with MIMO
+DC-HSDPA - Dual Carrier HSDPA - 64-QAM, 16-QAM 
+
+EDGE - Enhanced Data Rates for GSM Evo 
+EDGE - 8PSK
+HSPA - High Speed Packet Access
+HSDPA - High-Speed Downlink Packet Access
+HSUPA - High-Speed Uplink Packet Access, 
+GPRS - General Packet Radio Service
+
+OFDM Ortogonal Frequency Division Multiplexing
+OFDMA Ortogonal Frequency Division Multiply Access
+
+FDMA - Frequency guard band to prevent frequency interference
+OFDM - Reduce guard band
+OFDM - selects close ortogonal subcariers not to interfere
+
+SC FDMA
+
+IFI - Inter Frequency Interference
+ISI - Inter Sunbol Interference
+
+TDD - Time Division Duplex
+FDD - Frequency Division Duplex
+
+
+FFT - Fast Fourier Transform
+iFFT - Invers Fast Fourier Transform
+BW - Band Width
+SVD - Single Value Decomposition
+
+BF - Beam Forming
+MIMO
