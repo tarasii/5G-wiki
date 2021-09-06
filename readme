@@ -1,36 +1,69 @@
 1G - FDMA (CSD)
 2G - TDMA (GSM) 
-3G - CDMA (CDMA2000, HSDPA)
-4G - FDMA + QAMs
+3G - CDMA (CDMA2000, HSDPA) 3GPP
+4G - FDMA + QAMs (LTE)
 5G - OFDMA
 
-GSM - Global System for Mobile Communications
+ITU  - International Telecommunication Union, 
+GSM  - Global System for Mobile Communications
 HSCSD - High-Speed CSD
 CSD - Circuit Switched Data
-UMTS - Universal Mobile Telecommunications System (3GSM) - W-CDMA
+GPRS - General Packet Radio Service
+EDGE - Enhanced Data Rates for GSM Evo
+UMTS - Universal Mobile Telecommunications System  
+LTE - Long Term Evolution
 
-TDD (WiMax)
-FDD (WCDMA, CDMA2000)
-(IMT-2000)
+ITU IMT-2000:
+TDMA Single‑Carrier (IMT‑SC) - EDGE (UWC-136) Evo
+CDMA Multi‑Carrier  (IMT‑MC) - CDMA2000       EV-DO  
+CDMA Direct Spread  (IMT‑DS) - UMTS W-CDMA    HSPA
+CDMA TDD            (IMT‑TC) - UMTS TD-CDMA
+                             - UMTS TD-SCDMA
+FDMA/TDMA           (IMT‑FT) - DECT
+IP‑OFDMA                     - WiMAX (IEEE 802.16)
+
+TDD (Dect, WiMax, TD-CDMA, TD-SCDMA)
+FDD (EDGE, WCDMA, CDMA2000)
 
 HSDPA - 16-QAM, QPSK
 HSPA+ - 64-QAM, 16-QAM with MIMO
 DC-HSDPA - Dual Carrier HSDPA - 64-QAM, 16-QAM 
 CDMA2000 1X EV-DO - QPSK
 
-EDGE - Enhanced Data Rates for GSM Evo 
-EDGE - 8PSK
+IMT-Advanced (4G):
+LTE-Advanced
+WirelessMAN-Advanced
+
+WLAN IEEE 802.11 a/b/b+/g/e/i/n/ac/ax
+IEEE 802.11n  - MIMO
+IEEE 802.11ac - MU-MIMO
+IEEE 802.11ax - OFDMA, QAM-1024
+
 HSPA - High Speed Packet Access
 HSDPA - High-Speed Downlink Packet Access
 HSUPA - High-Speed Uplink Packet Access, 
-GPRS - General Packet Radio Service
 
-OFDM Ortogonal Frequency Division Multiplexing
-OFDMA Ortogonal Frequency Division Multiply Access
+FDM  - Frequency-Division Multiplexing
+OFDM - Ortogonal Frequency Division Multiplexing
 
-FDMA - Frequency guard band to prevent frequency interference
+TDD - Time Division Duplex
+FDD - Frequency Division Duplex
+
+TDMA  - Tide Division Multiply Access 
+FDMA  - Frequency Division Multiple Access
+CDMA  - Code Division Multiply Access
+OFDMA - Ortogonal Frequency Division Multiply Access
+E-UTRA - Evolved Universal Terrestrial Radio Access
+
+E-UTRAN - Evolved UMTS Terrestrial Radio Access Network
+E-UTRA -  OFDMA radio-access for the DL and SC-FDMA on the UL
+
+EDGE - 8PSK
+FDMA - Frequency guard band inserted to prevent frequency interference
 OFDM - Reduce guard band
 OFDM - selects close ortogonal subcariers not to interfere
+FDM - xDSL (Digital Subscriber Line)
+
 
 SC FDMA
 
@@ -45,25 +78,29 @@ MER - Modulation Error Ratio
 BER - Bit Error Rate
 
 
-TDD - Time Division Duplex
-FDD - Frequency Division Duplex
 
 QAM - Quadrature Amplitude Modulation (16-QAM, 64-QAM, 256-QAM)
 PSK - Phase-Shift Keying
 BPSK - Binary Phase-Shift Keying - QPSK-2
 QPSK - Quadrature Phase Shift Keying - 4-PSK
 
-BW - Band Width
 
 FFT - Fast Fourier Transform
 iFFT - Invers Fast Fourier Transform
 SVD - Single Value Decomposition
 
+UL - UpLink
+DL - DownLink
+NB - Node Base
+UE - User Equipment
+BW - Band Width
+
 BF - Beam Forming
 
 
-UL - Up Link
-DL - Down Link
+
+DL-SCH - Downlink Shared Channel
+UL-SCH - Uplink Shared Channel
 
 PDSCH - Physical Downlink Shared Channel
 PBCH - Physical Brodcast Channel
@@ -75,11 +112,17 @@ PRACH - Physical Random Access Channel
 CRC - Cyclick Redundancy Check
 LDPC - Low Density Parity-сheck Code
 
+LTE - eNB
+5g - NR gNB
+
 PDSCH:
 Scrembling
 Demodulation
 Mapping
 iFFT
+CP
+
+DCI - Downlink Control Info
 
 PBCH:
 BW
@@ -89,11 +132,29 @@ SFN - Sysytem Frame Number
 
 PDCCH
 NR - New Radio
-UE - User Equipment
-LTE - eNB
-5g - NR gNB
-NB - Node Base
 
+
+PUSCH:
+Scrembling
+Modulation mapper
+Layer mapper
+Transform precoder
+Precoding
+Resource element mapper
+SC-FDMA signal generation
+
+OFDM - 
+
+UCI - Uplink Controll Info
+CSI feedback
+HARQ feedback
+
+UCI:
+ACK/NACK
+SR - Sheduled request
+CSI - Chanel Status Information
+
+PRACH: Syncronization between gNB UE
 
 
 
