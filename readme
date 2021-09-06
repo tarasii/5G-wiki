@@ -1,6 +1,6 @@
 1G - FDMA (CSD)
 2G - TDMA (GSM) 
-3G - CDMA
+3G - CDMA (CDMA2000, HSDPA)
 4G - FDMA + QAMs
 5G - OFDMA
 
@@ -16,6 +16,7 @@ FDD (WCDMA, CDMA2000)
 HSDPA - 16-QAM, QPSK
 HSPA+ - 64-QAM, 16-QAM with MIMO
 DC-HSDPA - Dual Carrier HSDPA - 64-QAM, 16-QAM 
+CDMA2000 1X EV-DO - QPSK
 
 EDGE - Enhanced Data Rates for GSM Evo 
 EDGE - 8PSK
@@ -33,17 +34,66 @@ OFDM - selects close ortogonal subcariers not to interfere
 
 SC FDMA
 
+MIMO - Multiple Input Multiple Output
+
 IFI - Inter Frequency Interference
 ISI - Inter Sunbol Interference
+NPR - Noise Per Ratio
+CNR - Carrier Noise Ratio
+FEC - Forward Error Correction
+MER - Modulation Error Ratio
+BER - Bit Error Rate
+
 
 TDD - Time Division Duplex
 FDD - Frequency Division Duplex
 
+QAM - Quadrature Amplitude Modulation (16-QAM, 64-QAM, 256-QAM)
+PSK - Phase-Shift Keying
+BPSK - Binary Phase-Shift Keying - QPSK-2
+QPSK - Quadrature Phase Shift Keying - 4-PSK
+
+BW - Band Width
 
 FFT - Fast Fourier Transform
 iFFT - Invers Fast Fourier Transform
-BW - Band Width
 SVD - Single Value Decomposition
 
 BF - Beam Forming
-MIMO
+
+
+UL - Up Link
+DL - Down Link
+
+PDSCH - Physical Downlink Shared Channel
+PBCH - Physical Brodcast Channel
+PDCCH - Physical Downlink Controll Channel
+PUSCH - Physical Uplink Shared Channel
+PUCCH - Physical Uplink Controll Channel
+PRACH - Physical Random Access Channel
+
+CRC - Cyclick Redundancy Check
+LDPC - Low Density Parity-сheck Code
+
+PDSCH:
+Scrembling
+Demodulation
+Mapping
+iFFT
+
+PBCH:
+BW
+Timing info
+SS burst priority
+SFN - Sysytem Frame Number
+
+PDCCH
+NR - New Radio
+UE - User Equipment
+LTE - eNB
+5g - NR gNB
+NB - Node Base
+
+
+
+
