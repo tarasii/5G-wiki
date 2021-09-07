@@ -182,7 +182,6 @@ pdsch.DMRS.AdditionalPosition = 1;
 pdsch.DMRS.ConfigType = 2; 
 ```
 
-## PDSCH DMRS Additional Position = 1 
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_2_len_2_addpos_1.png)
 
