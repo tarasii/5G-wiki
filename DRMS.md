@@ -10,7 +10,7 @@ pdsch.DMRS.ConfigType = {1, 2};
 
 # PDSCH DMRS Mapping Types:
 
-PDSCH DMRS mapping type A
+## PDSCH DMRS mapping type A
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA.png)
 
@@ -52,7 +52,7 @@ pdsch.DMRS.AdditionalPosition = 0;
 pdsch.DMRS.ConfigType = 2; 
 ```
 
-PDSCH DMRS mapping type B
+## PDSCH DMRS mapping type B
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeB.png)
 
@@ -76,7 +76,7 @@ pdsch.DMRS.ConfigType = 1;
 
 # PDSCH DMRS Config Types:
 
-PDSCH DMRS config type 1
+## PDSCH DMRS config type 1
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_3.png)
 
@@ -88,7 +88,17 @@ pdsch.DMRS.AdditionalPosition = 0;
 pdsch.DMRS.ConfigType = 1; 
 ```
 
-PDSCH DMRS config type 2
+## PDSCH DMRS config type 2
+
+![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_2_len_1_addpos_0_b.png)
+
+```c
+pdsch.DMRS.MappingType = A;      
+pdsch.DMRS.TypeAPosition = 2;    
+pdsch.DMRS.MaxLength = 1;             
+pdsch.DMRS.AdditionalPosition = 0; 
+pdsch.DMRS.ConfigType = 2; 
+```
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA.png)
 
@@ -99,7 +109,6 @@ pdsch.DMRS.MaxLength = 1;
 pdsch.DMRS.AdditionalPosition = 0; 
 pdsch.DMRS.ConfigType = 2; 
 ```
-PDSCH DMRS Max Length = 2 - double-symbol 
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_2_len_2.png)
 
@@ -137,7 +146,6 @@ pdsch.DMRS.AdditionalPosition = 0;
 pdsch.DMRS.ConfigType = 2; 
 ```
 
-PDSCH DMRS Max Length = 2 - double-symbol 
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_1_len_2_addpos_0.png)
 
