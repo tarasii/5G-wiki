@@ -80,3 +80,27 @@ PDSCH DMRS config type 1
 PDSCH DMRS config type 2
 
 # PDSCH DMRS Max Length:
+
+PDSCH DMRS Max Length = 1 - single-symbol
+
+![GitHub Logo](/PDSCH_DRMS_Mapping_typeA.png)
+
+```c
+pdsch.DMRS.MappingType = A;      
+pdsch.DMRS.TypeAPosition = 2; //l0 = 2     
+pdsch.DMRS.MaxLength = 1;             
+pdsch.DMRS.AdditionalPosition = 0; 
+pdsch.DMRS.ConfigType = 2; 
+```
+PDSCH DMRS Max Length = 2 - double-symbol 
+
+![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_2_len_2.png)
+
+```c
+pdsch.DMRS.MappingType = A;      
+pdsch.DMRS.TypeAPosition = 2; //l0 = 2     
+pdsch.DMRS.MaxLength = 2;             
+pdsch.DMRS.AdditionalPosition = 0; 
+pdsch.DMRS.ConfigType = 2; 
+```
+
