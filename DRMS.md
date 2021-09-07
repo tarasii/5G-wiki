@@ -1,3 +1,13 @@
+# PDSCH DMRS
+
+```c
+pdsch.DMRS.MappingType = {A, B};      
+pdsch.DMRS.TypeAPosition = {0, 2, 3};         
+pdsch.DMRS.MaxLength = {1, 2};             
+pdsch.DMRS.AdditionalPosition = {0, 1, 2, 3}; 
+pdsch.DMRS.ConfigType = {1, 2}; 
+```
+
 # PDSCH DMRS Mapping Types:
 
 PDSCH DMRS mapping type A
@@ -7,7 +17,7 @@ PDSCH DMRS mapping type A
 ```c
 pdsch.DMRS.MappingType = A;      
 pdsch.DMRS.TypeAPosition = 2; //l0 = 2     
-pdsch.DMRS.Length = 1;             
+pdsch.DMRS.MaxLength = 1;             
 pdsch.DMRS.AdditionalPosition = 0; 
 pdsch.DMRS.ConfigType = 2; 
 ```
@@ -17,7 +27,7 @@ pdsch.DMRS.ConfigType = 2;
 ```c
 pdsch.DMRS.MappingType = A;      
 pdsch.DMRS.TypeAPosition = 2; //l0 = 2     
-pdsch.DMRS.Length = 1;             
+pdsch.DMRS.MaxLength = 1;             
 pdsch.DMRS.AdditionalPosition = 0; 
 pdsch.DMRS.ConfigType = 1; 
 ```
@@ -27,7 +37,7 @@ pdsch.DMRS.ConfigType = 1;
 ```c
 pdsch.DMRS.MappingType = A;      
 pdsch.DMRS.TypeAPosition = 3; //l0 = 3     
-pdsch.DMRS.Length = 1;             
+pdsch.DMRS.MaxLength = 1;             
 pdsch.DMRS.AdditionalPosition = 0; 
 pdsch.DMRS.ConfigType = 1; 
 ```
@@ -37,7 +47,7 @@ pdsch.DMRS.ConfigType = 1;
 ```c
 pdsch.DMRS.MappingType = A;      
 pdsch.DMRS.TypeAPosition = 2; //l0 = 2     
-pdsch.DMRS.Length = 3;             
+pdsch.DMRS.MaxLength = 2;             
 pdsch.DMRS.AdditionalPosition = 0; 
 pdsch.DMRS.ConfigType = 2; 
 ```
@@ -49,7 +59,7 @@ PDSCH DMRS mapping type B
 ```c
 pdsch.DMRS.MappingType = B;      
 //pdsch.DMRS.TypeAPosition = 0;  //l0 = 0       
-pdsch.DMRS.Length = 1;             
+pdsch.DMRS.MaxLength = 1;             
 pdsch.DMRS.AdditionalPosition = 0; 
 pdsch.DMRS.ConfigType = 2; 
 ```
@@ -59,7 +69,7 @@ pdsch.DMRS.ConfigType = 2;
 ```c
 pdsch.DMRS.MappingType = B;      
 //pdsch.DMRS.TypeAPosition = 0;  //l0 = 0       
-pdsch.DMRS.Length = 1;             
+pdsch.DMRS.MaxLength = 1;             
 pdsch.DMRS.AdditionalPosition = 0; 
 pdsch.DMRS.ConfigType = 1; 
 ```
