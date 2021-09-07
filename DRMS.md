@@ -122,7 +122,7 @@ pdsch.DMRS.ConfigType = 2;
 
 # PDSCH DMRS Max Length:
 
-PDSCH DMRS Max Length = 1 - single-symbol
+## PDSCH DMRS Max Length = 1 - single-symbol
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA.png)
 
@@ -134,7 +134,7 @@ pdsch.DMRS.AdditionalPosition = 0;
 pdsch.DMRS.ConfigType = 2; 
 ```
 
-PDSCH DMRS Max Length = 2 - double-symbol 
+## PDSCH DMRS Max Length = 2 - double-symbol 
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_2_len_2.png)
 
@@ -145,7 +145,6 @@ pdsch.DMRS.MaxLength = 2;
 pdsch.DMRS.AdditionalPosition = 0; 
 pdsch.DMRS.ConfigType = 2; 
 ```
-
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_1_len_2_addpos_0.png)
 
@@ -159,7 +158,7 @@ pdsch.DMRS.ConfigType = 1;
 
 # PDSCH DMRS Additional Position:
 
-PDSCH DMRS Additional Position = 0 
+## PDSCH DMRS Additional Position = 0 
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_2_len_1_addpos_0.png)
 
@@ -171,7 +170,7 @@ pdsch.DMRS.AdditionalPosition = 0;
 pdsch.DMRS.ConfigType = 2; 
 ```
 
-PDSCH DMRS Additional Position = 1 
+## PDSCH DMRS Additional Position = 1 
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_2_len_1_addpos_1.png)
 
@@ -183,7 +182,7 @@ pdsch.DMRS.AdditionalPosition = 1;
 pdsch.DMRS.ConfigType = 2; 
 ```
 
-PDSCH DMRS Additional Position = 1 
+## PDSCH DMRS Additional Position = 1 
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_2_len_2_addpos_1.png)
 
@@ -195,7 +194,7 @@ pdsch.DMRS.AdditionalPosition = 1;
 pdsch.DMRS.ConfigType = 2; 
 ```
 
-PDSCH DMRS Additional Position = 2 
+## PDSCH DMRS Additional Position = 2 
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_2_len_1_addpos_2.png)
 
@@ -207,7 +206,7 @@ pdsch.DMRS.AdditionalPosition = 2;
 pdsch.DMRS.ConfigType = 2; 
 ```
 
-PDSCH DMRS Additional Position = 3 
+## PDSCH DMRS Additional Position = 3 
 
 ![GitHub Logo](/PDSCH_DRMS_Mapping_typeA_config_type_2_len_1_addpos_3.png)
 
