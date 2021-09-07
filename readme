@@ -50,7 +50,9 @@ TDD - Time Division Duplex
 FDD - Frequency Division Duplex
 
 TDMA  - Tide Division Multiply Access 
+STDMA - Statistics Tide Division Multiply Access 
 FDMA  - Frequency Division Multiple Access
+SC-FDMA - Single Carrier Frequency Division Multiple Access
 CDMA  - Code Division Multiply Access
 OFDMA - Ortogonal Frequency Division Multiply Access
 E-UTRA - Evolved Universal Terrestrial Radio Access
@@ -64,9 +66,6 @@ OFDM - Reduce guard band
 OFDM - selects close ortogonal subcariers not to interfere
 FDM - xDSL (Digital Subscriber Line)
 
-
-SC FDMA
-
 MIMO - Multiple Input Multiple Output
 
 IFI - Inter Frequency Interference
@@ -76,8 +75,6 @@ CNR - Carrier Noise Ratio
 FEC - Forward Error Correction
 MER - Modulation Error Ratio
 BER - Bit Error Rate
-
-
 
 QAM - Quadrature Amplitude Modulation (16-QAM, 64-QAM, 256-QAM)
 PSK - Phase-Shift Keying
@@ -97,19 +94,17 @@ BW - Band Width
 
 BF - Beam Forming
 
-
-
 DL-SCH - Downlink Shared Channel
 UL-SCH - Uplink Shared Channel
 
 PDSCH - Physical Downlink Shared Channel
-PBCH - Physical Brodcast Channel
+PBCH  - Physical Brodcast Channel
 PDCCH - Physical Downlink Controll Channel
 PUSCH - Physical Uplink Shared Channel
 PUCCH - Physical Uplink Controll Channel
 PRACH - Physical Random Access Channel
 
-CRC - Cyclick Redundancy Check
+CRC  - Cyclick Redundancy Check
 LDPC - Low Density Parity-сheck Code
 
 LTE - eNB
@@ -120,7 +115,7 @@ Scrembling
 Demodulation
 Mapping
 iFFT
-CP
+CP - Cyclic Prefix
 
 DCI - Downlink Control Info
 
@@ -133,7 +128,6 @@ SFN - Sysytem Frame Number
 PDCCH
 NR - New Radio
 
-
 PUSCH:
 Scrembling
 Modulation mapper
@@ -142,8 +136,6 @@ Transform precoder
 Precoding
 Resource element mapper
 SC-FDMA signal generation
-
-OFDM - 
 
 UCI - Uplink Controll Info
 CSI feedback
@@ -156,5 +148,9 @@ CSI - Chanel Status Information
 
 PRACH: Syncronization between gNB UE
 
+DMRS - Demodulation Reference Signal 
+PTRS - Phase Tracking Reference Signal 
+SRS - Sounding Reference Signal 
+CSI-RS - Channel State Information Reference Signal 
 
 
