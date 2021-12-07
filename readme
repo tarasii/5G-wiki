@@ -71,6 +71,7 @@ MIMO - Multiple Input Multiple Output
 IFI - Inter Frequency Interference
 ISI - Inter Sunbol Interference
 NPR - Noise Per Ratio
+SNR - Signal-to-noise ratio  or S/N
 CNR - Carrier Noise Ratio
 FEC - Forward Error Correction
 MER - Modulation Error Ratio
