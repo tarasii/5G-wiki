@@ -94,6 +94,7 @@ UE - User Equipment
 BW - Band Width
 RB - Resourse block
 NRB - Number of Resourse Blocks
+PRB - Physical Resourse Blocks
 RNTI - Radio Network Temporary Identifier
 
 BWP - Bandwidth Part
