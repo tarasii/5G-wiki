@@ -92,6 +92,14 @@ DL - DownLink
 NB - Node Base
 UE - User Equipment
 BW - Band Width
+RB - Resourse block
+NRB - Number of Resourse Blocks
+RNTI - Radio Network Temporary Identifier
+
+BWP - Bandwidth Part
+NR - New Radio
+NB - Narrow Band
+
 
 BF - Beam Forming
 
@@ -127,7 +135,7 @@ SS burst priority
 SFN - Sysytem Frame Number
 
 PDCCH
-NR - New Radio
+
 
 PUSCH:
 Scrembling
