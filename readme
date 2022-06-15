@@ -179,3 +179,22 @@ CSI-RS - Channel State Information Reference Signal
 	//mu=0 df=15KHz Chanel BW 50MHz Guard BW 692.5KHz (50000 - 2 * 692.5KHz)/180KHz = 270PRB
 	//mu=1 df=30KHz Chanel BW 100MHz Guard BW 845KHz (100000 - 2 * 845KHz)/360KHz = 273PRB
 	//mu=2 df=60KHz Chanel BW 100MHz Guard BW 1370KHz (100000 - 2 * 1370KHz)/720KHz = 135PRB
+
+	//frame = 10 * subframes
+	//RB = 12 * resourse elements 
+symbols_per_slot = ((Ncp == NORMAL) ? 14 : 12);
+
+	frame_parms->ofdm_symbol_size = 4 * 128;
+	while (frame_parms->ofdm_symbol_size < frame_parms->N_RB_UL * 12)
+		frame_parms->ofdm_symbol_size <<= 1;
+	frame_parms->first_carrier_offset = frame_parms->ofdm_symbol_size - (frame_parms->N_RB_UL * 12 / 2);
+	frame_parms->nb_prefix_samples = frame_parms->ofdm_symbol_size / 128 * 9;
+	frame_parms->nb_prefix_samples0 = frame_parms->ofdm_symbol_size / 128 * (9 + (1 << frame_parms->numerology_index));
+	frame_parms->samples_per_slot_wCP = frame_parms->ofdm_symbol_size * frame_parms->symbols_per_slot;
+	frame_parms->samples_per_subframe_wCP = frame_parms->ofdm_symbol_size * frame_parms->symbols_per_slot * frame_parms->slots_per_subframe;
+	frame_parms->samples_per_slotN0 = (frame_parms->nb_prefix_samples + frame_parms->ofdm_symbol_size) * frame_parms->symbols_per_slot;
+	frame_parms->samples_per_slot0 = frame_parms->nb_prefix_samples0 + ((frame_parms->symbols_per_slot - 1) * frame_parms->nb_prefix_samples) + (frame_parms->symbols_per_slot * frame_parms->ofdm_symbol_size);
+	frame_parms->samples_per_subframe = (frame_parms->nb_prefix_samples0 + frame_parms->ofdm_symbol_size) * 2 +
+		(frame_parms->nb_prefix_samples + frame_parms->ofdm_symbol_size) * (frame_parms->symbols_per_slot * frame_parms->slots_per_subframe - 2);
+	frame_parms->samples_per_frame = frame_parms->samples_per_subframe * subframes_per_frame;
+	frame_parms->slots_per_frame = frame_parms->slots_per_subframe * subframes_per_frame;
