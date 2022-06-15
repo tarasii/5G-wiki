@@ -163,4 +163,19 @@ PTRS - Phase Tracking Reference Signal
 SRS - Sounding Reference Signal 
 CSI-RS - Channel State Information Reference Signal 
 
+	//mu=0 df=15KHz one RB 180KHz 15x12 1ms
+	//mu=1 df=30KHz one RB 360KHz 30x12 0.5ms 
+	//mu=2 df=60KHz one RB 720KHz 60x12 0.25ms 
+	//mu=3 df=120KHz one RB 1440KHz 120x12 0.125ms 
+	//mu=4 df=240KHz one RB 2880KHz 240x12 0.0625ms 
 
+	//mu=0 df=15KHz min RBs 24 max RBs 275  after guard band 270
+	//mu=1 df=30KHz min RBs 24 max RBs 275  after guard band 273
+	//mu=2 df=60KHz min RBs 24 max RBs 275  after guard band 135
+	//mu=3 df=120KHz min RBs 24 max RBs 275 
+	//mu=4 df=240KHz min RBs 24 max RBs 138  
+
+	//NRB = (Chanel BW - 2 * Guard BW)/one RB 
+	//mu=0 df=15KHz Chanel BW 50MHz Guard BW 692.5KHz (50000 - 2 * 692.5KHz)/180KHz = 270PRB
+	//mu=1 df=30KHz Chanel BW 100MHz Guard BW 845KHz (100000 - 2 * 845KHz)/360KHz = 273PRB
+	//mu=2 df=60KHz Chanel BW 100MHz Guard BW 1370KHz (100000 - 2 * 1370KHz)/720KHz = 135PRB
