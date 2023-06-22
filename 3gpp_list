@@ -1,6 +1,10 @@
 3GPP TR 21.905: "Vocabulary for 3GPP Specifications". 
 3GPP TR 25.942: "RF system scenarios". 
+3GPP TS 38.101: "NR; User Equipment (UE) radio transmission and reception" 
+3GPP TS 38.101-1: "NR; User Equipment (UE) radio transmission and reception; Part 1: Range 1 Standalone".
+3GPP TS 38.101-2: "NR; User Equipment (UE) radio transmission and reception; Part 2: Range 2 Standalone"
 3GPP TS 38.104: "Base Station (BS) radio transmission and reception" 
+3GPP TS 38.133: "NR; Requirements for support of radio resource management"
 3GPP TS 38.201: "NR; Physical Layer – General Description" 
 3GPP TS 38.202: "NR; Services provided by the physical layer" 
 3GPP TS 38.211: "NR; Physical channels and modulation " 
@@ -12,6 +16,5 @@
 3GPP TS 38.306: "NR; User Equipment (UE) radio access capabilities" 
 3GPP TS 38.321: "NR; Medium Access Control (MAC) protocol specification"
 3GPP TS 38.331: "NR; Radio Resource Control (RRC) protocol specification"
+3GPP TS 38.423: "NG-RAN; Xn signalling transport"
 3GPP TR 38.901: "Study on channel model for frequencies from 0.5 to 100 GHz"
-3GPP TS 38.101-1: "NR; User Equipment (UE) radio transmission and reception; Part 1: Range 1 Standalone".
-3GPP TS 38.101-2: "NR; User Equipment (UE) radio transmission and reception; Part 2: Range 2 Standalone"
