@@ -1,0 +1,30 @@
+TS 38.211
+
+BWP Bandwidth part 
+CCE Control channel element 
+CORESET Control resource set 
+CRB Common resource block 
+CSI Channel-state information 
+CSI-RS CSI reference signal 
+DCI Downlink Control Information 
+DM-RS Demodulation reference signal 
+FR1 Frequency range 1 as defined in [8, TS 38.104] 
+FR2 Frequency range 2 as defined in [8, TS 38.104] 
+IAB Integrated access and backhaul 
+IAB-MT IAB mobile termination 
+IE Information element 
+PBCH Physical broadcast channel 
+PDCCH Physical downlink control channel 
+PDSCH Physical downlink shared channel 
+PRACH Physical random-access channel 
+PRB Physical resource block 
+PSS Primary synchronization signal 
+PT-RS Phase-tracking reference signal 
+PUCCH Physical uplink control channel 
+PUSCH Physical uplink shared channel 
+REG Resource-element group 
+RIM Remote interference management 
+RIM-RS Remote interference management reference signal 
+SRS Sounding reference signal 
+SSS Secondary synchronization signal 
+VRB Virtual resource block 
