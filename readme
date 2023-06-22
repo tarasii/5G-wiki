@@ -101,8 +101,33 @@ BWP - Bandwidth Part
 NR - New Radio
 NB - Narrow Band
 
-
 BF - Beam Forming
+
+PHY L1 - Physical chanel                     LTE 3GPP TS 36.211  5G NR 3GPP TS 38.211 - 5G NR 3GPP TS 38.215
+MAC L2 - Medium Access Control               LTE 3GPP TS 36.212  5G NR 3GPP TS 38.321
+RLC - Radio Link Control (TM UM AM mode)
+PDCP - Packet Data Convergence Protocol      LTE 3GPP TS 25.323
+RRC - Radio Resource Control                                     5G NR 3GPP TS 38.331
+NAS-SM
+
+TBS - Transport Block Size
+5G NR 3GPP TS 38.214 MCS TBS CSI CQI PDSCH PUSCH 
+5G NR 3GPP TS 38.212 CRC Polar LDPC Small block Rate maching
+5G NR 3GPP TS 38.211
+
+[1] 3GPP TR 21.905: "Vocabulary for 3GPP Specifications". 
+[2] 3GPP TS 38.201: "NR; Physical Layer – General Description" 
+[3] 3GPP TS 38.202: "NR; Services provided by the physical layer" 
+    3GPP TS 38.211: "NR; Physical channels and modulation " 
+[4] 3GPP TS 38.212: "NR; Multiplexing and channel coding" 
+[5] 3GPP TS 38.213: "NR; Physical layer procedures for control " 
+[6] 3GPP TS 38.214: "NR; Physical layer procedures for data " 
+[7] 3GPP TS 38.215: "NR; Physical layer measurements" 
+[8] 3GPP TS 38.104: "NR; Base Station (BS) radio transmission and reception" 
+[9] void 
+[10] 3GPP TS 38.306: "NR; User Equipment (UE) radio access capabilities" 
+[11] 3GPP TS 38.321: "NR; Medium Access Control (MAC) protocol specification"
+     3GPP TS 38.331: "NR; Radio Resource Control (RRC) protocol specification"
 
 DL-SCH - Downlink Shared Channel
 UL-SCH - Uplink Shared Channel
