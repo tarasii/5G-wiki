@@ -28,3 +28,99 @@ RIM-RS Remote interference management reference signal
 SRS Sounding reference signal 
 SSS Secondary synchronization signal 
 VRB Virtual resource block 
+
+3GPP TS 38.212 
+BCH Broadcast channel 
+CBG Code block group 
+CBGTI Code block group transmission information 
+CORESET Control resource set 
+CQI Channel quality indicator 
+CRC Cyclic redundancy check 
+CRI CSI-RS resource indicator 
+CSI Channel state information 
+CSI-RS CSI reference signal 
+DAI Downlink assignment index 
+DCI Downlink control information 
+DL Downlink 
+DL-SCH Downlink shared channel 
+DMRS Dedicated demodulation reference signal 
+HARQ Hybrid automatic repeat request 
+HARQ-ACK Hybrid automatic repeat request acknowledgement 
+LDPC Low density parity check 
+LI Layer indicator 
+MCS Modulation and coding scheme 
+OFDM Orthogonal frequency division multiplex 
+PBCH Physical broadcast channel 
+PCH Paging channel 
+PDCCH Physical downlink control channel 
+PDSCH Physical downlink shared channel 
+PMI Precoding matrix indicator 
+PRB Physical resource block 
+PRACH Physical random access channel 
+PTRS Phase-tracking reference signal 
+PUCCH Physical uplink control channel 
+PUSCH Physical uplink shared channel 
+RACH Random access channel 
+RI Rank indicator 
+RSRP Reference signal received power 
+SFN System frame number 
+SR Scheduling request 
+SRS Sounding reference signal 
+SS Synchronisation signal 
+SUL Supplementary uplink 
+TPC Transmit power control 
+TrCH Transport channel 
+UCI Uplink control information 
+UE User equipment 
+UL Uplink 
+UL-SCH Uplink shared channel 
+VRB Virtual resource block 
+
+3GPP TS 38.214 
+BWP Bandwidth part 
+CBG Code block group 
+CP Cyclic prefix 
+CQI Channel quality indicator 
+CPU CSI processing unit 
+CRC Cyclic redundancy check 
+CRI CSI-RS Resource Indicator 
+CSI Channel state information 
+CSI-RS Channel state information reference signal 
+CSI-RSRP CSI reference signal received power 
+CSI-RSRQ CSI reference signal received quality 
+CSI-SINR CSI signal-to-noise and interference ratio 
+CW Codeword 
+DCI Downlink control information 
+DL Downlink 
+DM-RS Dedicated demodulation reference signals 
+EPRE Energy per resource element 
+L1-RSRP Layer 1 reference signal received power 
+LI Layer Indicator 
+MCS Modulation and coding scheme 
+PDCCH Physical downlink control channel 
+PDSCH Physical downlink shared channel 
+PSS Primary Synchronisation signal 
+PUCCH Physical uplink control channel 
+QCL Quasi co-location 
+PMI Precoding Matrix Indicator 
+PRB Physical resource block 
+PRG Precoding resource block group 
+PT-RS Phase-tracking reference signal 
+RB Resource block 
+RBG Resource block group 
+RI Rank Indicator 
+RIV Resource indicator value 
+RS Reference signal 
+SLIV Start and length indicator value 
+SR Scheduling Request 
+SRS Sounding reference signal 
+SS Synchronisation signal 
+SSS Secondary Synchronisation signal 
+SS-RSRP SS reference signal received power 
+SS-RSRQ SS reference signal received quality 
+SS-SINR SS signal-to-noise and interference ratio 
+TB Transport Block 
+TCI Transmission Configuration Indicator 
+TDM Time division multiplexing 
+UE User equipment 
+UL Uplink 
